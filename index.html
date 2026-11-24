@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2563eb">
+<title>RAY GMAIL STORE</title>
+<style>
+:root{--blue:#2563eb;--blue2:#1d4ed8;--ink:#172033;--muted:#64748b;--line:#e5eaf2;--bg:#f5f8ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.wrap{max-width:1050px;margin:auto;padding:0 18px}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.nav{height:66px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:850;letter-spacing:.2px}
+.logo{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,#3b82f6,#1d4ed8);color:white;display:grid;place-items:center;font-weight:900}
+.brand small{display:block;font-size:10px;color:var(--muted);font-weight:600;letter-spacing:1.4px;margin-top:1px}
+.nav a{color:var(--muted);text-decoration:none;font-size:13px;font-weight:650}
+.navlinks{display:flex;gap:18px;align-items:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--blue);color:white;text-decoration:none;border:0;border-radius:12px;padding:12px 17px;font-weight:750;font-size:14px;cursor:pointer}
+.btn:hover{background:var(--blue2)}.btn.secondary{background:#eff6ff;color:var(--blue)}
+.hero{padding:45px 0 28px}
+.hero-card{background:linear-gradient(120deg,#eff6ff,#fff 68%);border:1px solid #dbeafe;border-radius:25px;padding:34px;display:grid;grid-template-columns:1.4fr .8fr;align-items:center;gap:20px;overflow:hidden}
+.eyebrow{display:inline-block;background:#dbeafe;color:#1d4ed8;border-radius:999px;padding:7px 11px;font-size:11px;font-weight:800;letter-spacing:.8px}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.08;margin:16px 0 12px;letter-spacing:-1.5px}
+.lead{color:var(--muted);line-height:1.7;max-width:520px;font-size:15px}
+.hero-art{min-height:190px;display:grid;place-items:center}
+.mailbox{width:165px;height:130px;border-radius:25px;background:white;border:1px solid #dbeafe;box-shadow:0 18px 45px #2563eb20;display:grid;place-items:center;transform:rotate(-5deg);font-size:64px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+section{padding:22px 0 34px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:16px}
+h2{font-size:22px;margin:0;letter-spacing:-.5px}.sub{color:var(--muted);font-size:13px;margin:6px 0 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:white;border:1px solid var(--line);border-radius:18px;padding:19px;box-shadow:0 5px 18px #17203308}
+.icon{width:43px;height:43px;border-radius:13px;background:#eff6ff;display:grid;place-items:center;font-size:21px;margin-bottom:13px}
+.card h3{font-size:16px;margin:0 0 7px}.card p{font-size:13px;color:var(--muted);line-height:1.6;margin:0}
+.notice{margin:8px 0 30px;background:#fff;border:1px solid var(--line);border-radius:17px;padding:17px;display:flex;gap:12px;align-items:flex-start}
+.notice strong{font-size:13px}.notice p{margin:4px 0 0;color:var(--muted);font-size:12px;line-height:1.6}
+footer{background:#fff;border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:12px}
+.foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media(max-width:650px){.navlinks a:not(.btn){display:none}.hero{padding-top:22px}.hero-card{padding:24px 20px;grid-template-columns:1fr}.hero-art{min-height:105px}.mailbox{width:110px;height:88px;font-size:43px;border-radius:19px}.grid{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.lead{font-size:14px}h1{font-size:35px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <div class="brand"><div class="logo">R</div><div>RAY GMAIL STORE<small>DIGITAL STORE</small></div></div>
+  <nav class="navlinks"><a href="#layanan">Layanan</a><a href="#tentang">Tentang</a><a class="btn" href="#layanan">Jelajahi</a></nav>
+</div></header>
+<main class="wrap">
+  <div class="hero"><div class="hero-card">
+    <div><span class="eyebrow">WELCOME TO RAY STORE</span>
+      <h1>Solusi digital,<br><span style="color:var(--blue)">lebih praktis.</span></h1>
+      <p class="lead">Selamat datang di RAY GMAIL STORE. Temukan informasi layanan digital dengan tampilan yang sederhana, jelas, dan nyaman digunakan.</p>
+      <div class="actions"><a class="btn" href="#layanan">Lihat layanan <span style="margin-left:8px">→</span></a><a class="btn secondary" href="#tentang">Tentang toko</a></div>
+    </div>
+    <div class="hero-art"><div class="mailbox">✉️</div></div>
+  </div></div>
+  <section id="layanan">
+    <div class="section-head"><div><h2>Layanan Kami</h2><p class="sub">Informasi layanan yang tersedia di toko.</p></div></div>
+    <div class="grid">
+      <article class="card"><div class="icon">🧩</div><h3>Layanan Digital</h3><p>Informasi layanan digital yang tersedia secara transparan dan sesuai ketentuan masing-masing platform.</p></article>
+      <article class="card"><div class="icon">🛡️</div><h3>Bantuan & Panduan</h3><p>Panduan penggunaan layanan dan bantuan untuk pertanyaan pelanggan.</p></article>
+      <article class="card"><div class="icon">🧾</div><h3>Informasi Pesanan</h3><p>Ruang untuk melihat informasi pesanan dan pembaruan layanan setelah fitur toko disiapkan.</p></article>
+    </div>
+  </section>
+  <div class="notice" id="tentang"><div style="font-size:22px">ℹ️</div><div><strong>Tentang RAY GMAIL STORE</strong><p>Website ini merupakan rancangan awal. Fitur akun pelanggan, pembayaran, dan administrasi belum aktif. Layanan terkait akun Google harus mengikuti ketentuan Google; website ini tidak menawarkan akun massal atau akun untuk mengakali batas pembuatan akun.</p></div></div>
+</main>
+<footer><div class="wrap foot"><span>© 2026 RAY GMAIL STORE</span><span>Made with care · Light blue edition</span></div></footer>
+</body></html>
